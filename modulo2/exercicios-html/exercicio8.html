@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercicio8</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro Dev</h1>
+    </header>
+    <section>
+      <form action="">
+        <label for="name">nome</label>
+        <input type="name" id="nome" placeholder="diga seu nome" />
+        <br />
+        <label for="text">sobrenome</label>
+        <input type="text" id="texto" placeholder="diga seu seu sobrenome" />
+        <br />
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="diga seu email" />
+      </form>
+    </section>
+
+    <section>
+      <form action="">
+        <h1>De qual lado da aplicação você desenvolve</h1>
+        <input type="checkbox" id="front-end" placeholder="front-end" />
+        <label for="termsofuse">front-end</label>
+        <input type="checkbox" name="back-end" id="back-end" />
+        <label for="termsofuse">back-end</label>
+        <input type="checkbox" name="full-stack" id="full-stack" />
+        <label for="termsofuse">full-stack</label>
+        <br />
+        <br>
+        <label for="senioridade"><strong>Senioridade</strong></label>
+        <select id="senioridade" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Júnior</option>
+          <option>Pleno</option>
+          <option>Sênior</option>
+        </select>
+        <br>
+        <h2>
+            selecione as tecnologias que utiliza:
+        </h2>
+        <input type="checkbox" name="html" id="html">
+        <label for="termsofuse">html</label>
+        <input type="checkbox" name="css" id="css">
+        <label for="termsofuse">css</label>
+        <input type="checkbox" name="java-script" id="java-script">
+        <label for="termsofuse">java-script</label>
+        <input type="checkbox" id="php">
+        <label for="termsofuse">php</label>
+        <input type="checkbox" name="c#" id="c#">
+        <label for="termsofuse">c#</label>
+        <input type="checkbox" name="python" id="python">
+        <label for="termsofuse">python</label>
+        <input type="checkbox" name="java" id="java">
+        <label for="termsofuse">java</label>
+      </form>
+    </section>
+    <section>
+        <h3>
+            Conte um pouco mais da sua experiencia
+        </h3>
+      <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+      <br>
+      <button type="submit">concluido</button>
+    </section>
+  </body>
+</html>

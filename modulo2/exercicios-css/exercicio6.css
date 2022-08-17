@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+body,
+html{
+ background-image: url(data:image/jpeg;base64,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);
+  height: 100vh;
+  width: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section h1{
+    font-size: 3rem;
+    padding: 1rem;
+    color: rgb(152, 233, 237);
+}
+section {
+    background-color: rgb(28, 52, 79);
+    align-items: center;
+    padding: .3rem;
+}
+section form label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: aquamarine;
+}
+section form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 20rem;
+}
+button{
+    width: 5rem;
+    font-size: 1.2rem;
+    border: pink;
+    color: aqua;
+}
+
